@@ -1,7 +1,7 @@
 <?php
 
     function loguearUsuario($username, $contrasenia) { //función para loguear usuario
-        require 'TALTETCH-WEB/database/sqlConnection.php'; //incluir la conexión a la base de datos
+        require 'TALTETCH-WEB/Database/sqlConnection.php'; //incluir la conexión a la base de datos
         // Aquí iría la lógica para verificar el usuario en la base de datos
         // Por simplicidad, asumimos que el usuario es "admin" y la contraseña es "password"
         // Incluir la conexión
